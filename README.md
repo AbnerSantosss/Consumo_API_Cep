@@ -1,35 +1,39 @@
-Passo a passo consumir a armazenar dados de API
-### Levando em consideração que todo o html e css já está pronto:
-
-1- Criar uma classe (com o construtor) para trabalhar os dados e outra (com o super) para eventos no HTML
-
-
-2- Criar um script principal que vai receber o importe do outro script que contem os dados
-e nesse temos qinstanciar e adicionar o seletor principal que está no html
+<div align="center">
+ <h1> ✅Cadastro de Cep No Sistema ✅ </h1>
+ <p>Projeto que a empresa pode adicionar atravéns do Cep as ruas que fará servirço de Pavimentação, podendo cadastrar e excluir!</P>
+ </div>
 
 
-```
-import { FavoritosView } from './script.js'
 
-new FavoritosView('#page')
+> Trabalhamos nesse projeto:
+> * javascript defer (Possibilitando usar o script no topo do do html)
+>
+>
+> * Mudularizamos os scripts para separar por responsabilidades
+>
+> * Ultilizamos tabelas geradas pela DOM com o JS
+> * Usamos o localStorage pra armazenar op estado atual da tabela
+> * Consumir a API CEP para pegar os dados e armazenar
+> * Usamos o fetch para buscar a API
+> * O forEach para percorrer os dados e fazer as alterações
 
-```
-
-3- Pegar o seletor principal do HTML e colocar na classe que foi chamada ex
-
-new favorites('#app')
 
 
-4- A classse "Favorites" vai receber esse seletor dentro do construto (no construtor vai ter um parametro)
-ex: 
-export class Favoritos {
-  constructor(root) {
-    
 
-this.root = document.querySelector(root)
 
-    
 
-   
-}
+
+<div align="center">
+
+ 
+⬇️Preview ⬇️
+  <p style="text-align:center;">Veja o projeto online clicando <a href="https://meusfavoritosgithub.netlify.app/">Aqui!</a></p>
+
+
+![Design sem nome (3)](https://user-images.githubusercontent.com/107922389/187041224-a7875f95-fed0-4156-bae2-be0154785fca.gif)
+
+
+
+   <p style="text-align: center;">Por Abner Santos ✨</p>
+  </div>
 
