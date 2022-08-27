@@ -27,7 +27,7 @@
 
  
 ⬇️Preview ⬇️
-  <p style="text-align:center;">Veja o projeto online clicando <a href="https://meusfavoritosgithub.netlify.app/">Aqui!</a></p>
+  <p style="text-align:center;">Veja o projeto online clicando <a href="https://cadastracep.netlify.app/">Aqui!</a></p>
 
 
 ![Design sem nome (3)](https://user-images.githubusercontent.com/107922389/187041224-a7875f95-fed0-4156-bae2-be0154785fca.gif)
