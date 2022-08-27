@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root{
+font-size:  62.5%;
+  
+}
+
+body{
+  font-size: 1.6rem;
+  display: flex;
+  background-color: #27191cf0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+#page{
+  margin: 7.5rem auto;
+  background-color: #6e9987;
+  padding: 2.0rem;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  width: 67%;
+}
+
+  
+#page header{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.0rem;
+  border-radius: 8px 8px 0 0;
+}
+
+
+#page header h1{
+  color: #2d3839;
+  font-size: 4.1rem;
+  text-align: center;
+}
+ 
+.nav-bar{
+  margin-bottom: 2.0rem;
+  display: flex;
+  gap: 1.0rem;
+  flex-direction: column;
+}
+
+.nav-bar p{
+  color: #2d3839;
+  font-weight: bold;
+}
+
+
+.nav-bar button{
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+  background-color: #114d4d;
+  color: aliceblue;
+  padding: 1.0rem;
+}
+
+.nav-bar button:hover{
+background-color: #153d3d;
+}
+
+
+.nav-bar input{
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/*======TABELA=========*/
+
+.table-section {
+  background-color: #27191c;
+  color: #fff8fa;
+  border: 2px solid #ffffff;
+  width: 100%;
+}
+
+.table-section thead tr th{
+  border-right: 1px solid #f5f4f4;
+  border-bottom:1px solid #f5f4f4; 
+}
+
+
+.table-section thead th {
+  padding: 5px;
+}
+
+/*========T-BODY========*/
+
+.table-section tbody td {
+  padding: 1.0rem;
+  border-right: 1px solid #f5f4f4;
+  border-bottom: 1px solid #f5f4f4;
+}
+
+
+.remove button {
+  cursor: pointer;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  padding: 4px;
+  font-weight: bold;
+  transition: 0.2s;
+  width: 2.6rem;
+}
+
+
+.remove button:hover {
+  background-color: #114d4d;
+}
+
+
+ 
+
+
+/*========Responsiveness========*/
+
+@media(max-width:550px) {
+
+  #page {
+    width: 89%;
+  }
+
+  #page header h1 {
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  .nav-bar p {
+    font-size: 1.1rem;
+  }
+
+  .table-section tbody td {
+    padding: 0;
+  }
+
+  .table-section {
+    font-size: 9px;
+  }
+
+
+  .remove button {
+    width: 1.6rem;
+    margin: 2px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
